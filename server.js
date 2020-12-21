@@ -4,8 +4,8 @@ var express = require("express"),
   port = process.env.PORT || 3001,
   router = express.Router();
 
-app.use(express.static(__dirname + "/views")); // set the static files location for the static html
-app.use(express.static(__dirname + "/public")); // set the static files location /public/img will be /img for users
+app.use("/conway", express.static(__dirname + "/views")); // set the static files location for the static html
+app.use("/conway", express.static(__dirname + "/public")); // set the static files location /public/img will be /img for users
 app.use(morgan("dev")); // log every request to the console
 
 router.get("/", function (req, res, next) {
