@@ -1,0 +1,13 @@
+{
+  "homepage": "https://seva32.github.io/app2",
+  "name": "expressjs-static-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.1.1",
+    "morgan": "^1.0.0"
+  }
+}
