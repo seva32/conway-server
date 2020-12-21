@@ -9,6 +9,7 @@ app.use("/conway", express.static(__dirname + "/public")); // set the static fil
 app.use(morgan("dev")); // log every request to the console
 
 router.get("/", function (req, res, next) {
+  console.log("entra");
   res.render("index.html");
 });
 
