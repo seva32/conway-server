@@ -12,14 +12,6 @@ router.get("/", function (req, res, next) {
   res.render("index.html");
 });
 
-router.get("/projects", function (req, res, next) {
-  res.render("projects.html");
-});
-
-router.get("/home", function (req, res, next) {
-  res.render("home.html");
-});
-
 app.use("/", router);
 
 app.listen(port);
