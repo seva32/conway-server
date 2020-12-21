@@ -1,7 +1,7 @@
 var express = require("express"),
   morgan = require("morgan"),
   app = express(),
-  port = process.env.PORT || 3001,
+  port = process.env.PORT || 3002,
   router = express.Router();
 
 app.use("/conway", express.static(__dirname + "/views")); // set the static files location for the static html
