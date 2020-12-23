@@ -794,6 +794,11 @@ h3 {
   padding-right: 1rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -1041,12 +1046,15 @@ h3 {
   line-height: 1.375rem;
 }
 
-.font-body-big {
+.font-rules {
   font-family: 'Roboto Slab', serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
   line-height: 1.9rem;
+}
+
+.font-2vw {
+  font-size: 2vw;
 }
 
 .font-body-bold {
@@ -1390,6 +1398,18 @@ h3 {
   font-size: calc(2rem + 2vw);
 }
 
+.font-18vw {
+  font-size: 1.8vw;
+}
+
+.font-13vw {
+  font-size: 1.3vw;
+}
+
+.font-1vw {
+  font-size: 1vw;
+}
+
 .background-smooth {
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -1419,6 +1439,11 @@ h3 {
 }
 
 @media (min-width: 640px) {
+  .sm\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .sm\:pt-2 {
     padding-top: 0.5rem;
   }
@@ -1450,6 +1475,18 @@ h3 {
   .sm\:font-size-lg {
     font-size: calc(2rem + 2vw);
   }
+
+  .sm\:font-18vw {
+    font-size: 1.8vw;
+  }
+
+  .sm\:font-13vw {
+    font-size: 1.3vw;
+  }
+
+  .sm\:font-1vw {
+    font-size: 1vw;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1467,6 +1504,11 @@ h3 {
 
   .md\:mr-40 {
     margin-right: 10rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:pb-0 {
@@ -1533,9 +1575,26 @@ h3 {
   .md\:font-size-lg {
     font-size: calc(2rem + 2vw);
   }
+
+  .md\:font-18vw {
+    font-size: 1.8vw;
+  }
+
+  .md\:font-13vw {
+    font-size: 1.3vw;
+  }
+
+  .md\:font-1vw {
+    font-size: 1vw;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .lg\:pt-6 {
     padding-top: 1.5rem;
   }
@@ -1567,6 +1626,18 @@ h3 {
   .lg\:font-size-lg {
     font-size: calc(2rem + 2vw);
   }
+
+  .lg\:font-18vw {
+    font-size: 1.8vw;
+  }
+
+  .lg\:font-13vw {
+    font-size: 1.3vw;
+  }
+
+  .lg\:font-1vw {
+    font-size: 1vw;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1592,6 +1663,18 @@ h3 {
 
   .xl\:font-size-lg {
     font-size: calc(2rem + 2vw);
+  }
+
+  .xl\:font-18vw {
+    font-size: 1.8vw;
+  }
+
+  .xl\:font-13vw {
+    font-size: 1.3vw;
+  }
+
+  .xl\:font-1vw {
+    font-size: 1vw;
   }
 }
 
@@ -1619,6 +1702,18 @@ h3 {
   .\32xl\:font-size-lg {
     font-size: calc(2rem + 2vw);
   }
+
+  .\32xl\:font-18vw {
+    font-size: 1.8vw;
+  }
+
+  .\32xl\:font-13vw {
+    font-size: 1.3vw;
+  }
+
+  .\32xl\:font-1vw {
+    font-size: 1vw;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1644,6 +1739,18 @@ h3 {
 
   .smMax\:font-size-lg {
     font-size: calc(2rem + 2vw);
+  }
+
+  .smMax\:font-18vw {
+    font-size: 1.8vw;
+  }
+
+  .smMax\:font-13vw {
+    font-size: 1.3vw;
+  }
+
+  .smMax\:font-1vw {
+    font-size: 1vw;
   }
 }
 
